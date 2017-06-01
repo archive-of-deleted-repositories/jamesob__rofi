@@ -58,7 +58,6 @@ struct _xcb_stuff
         /** Keyboard device id */
         int32_t device_id;
     }              xkb;
-    NkBindings     *bindings;
     NkBindingsSeat *bindings_seat;
     gboolean    mouse_seen;
 };
